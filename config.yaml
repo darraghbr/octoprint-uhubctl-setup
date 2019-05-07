@@ -1,0 +1,9 @@
+events:
+  enabled: true
+  subscriptions:
+  - command: sudo /home/pi/uhubctl/uhubctl -a off -l 1-1
+    event: Disconnected
+    type: system
+  - command: sudo /home/pi/uhubctl/uhubctl -a on -l 1-1
+    event: Connecting
+    type: system
