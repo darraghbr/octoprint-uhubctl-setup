@@ -4,7 +4,8 @@ First you must install uhubctl by mvp, which can be found [here.](https://github
 
 I have then included the code snippets in the 'config.yaml' file that you should include in your config.yaml file which can be found in /home/pi/.octoprint/ This uses the built in Octoprint events function to trigger the commands when the printer is connected/disconnected from Octoprint. You may need to modify the command depending on where you install uhubctl. 
 
+![GUI image](/images/GUIbuttons.png)
+
 It can also be added to the GUI in the System Command Editor plugin, this will allow you to have buttons on the drop down box to turn on and off the screen. If you do this you will need to copy the file 'octoprint-screencontrol' into the /etc/sudoers.d directory. This will allow the command to be run from the GUI. 
 
-![GUI image](/images/GUIbuttons.png)
 ![Edit command box](/images/editcommand.png)
