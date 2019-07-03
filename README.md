@@ -6,6 +6,6 @@ I have then included the code snippets in the 'config.yaml' file that you should
 
 ![GUI image](/images/GUIbuttons.png)
 
-It can also be added to the GUI in the System Command Editor plugin, this will allow you to have buttons on the drop down box to turn on and off the screen. If you do this you will need to copy the file 'octoprint-screencontrol' into the /etc/sudoers.d directory. This will allow the command to be run from the GUI. 
+It can also be added to the GUI in the System Command Editor plugin, this will allow you to have buttons on the 'system' drop down box to turn on and off the screen. If you do this you will need to copy the file 'octoprint-screencontrol' into the /etc/sudoers.d directory. This will allow the command to be run from the GUI. An example command can be seen below.
 
 ![Edit command box](/images/editcommand.png)
